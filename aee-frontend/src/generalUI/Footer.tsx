@@ -7,7 +7,7 @@ function Footer(): JSX.Element {
     <div className="relative bg-white rounded-t-lg text-black py-14 text-center overflow-hidden">
       <div className="absolute top-0 left-0 w-full h-24 bg-green-700 rounded-b-full"></div>
       <div className="relative z-10 max-w-6xl mx-auto px-4">
-        <img src="logo.png" alt="Department Logo" className="w-[120px] mt-[-20px] md:mb-0 md:ml-4" />
+        <img src="/logo.png" alt="Department Logo" className="w-[120px] mt-[-20px] md:mb-0 md:ml-4" />
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 text-sm font-medium mt-3 text-left max-w-4xl mx-auto">
           <div>
             <h4 className="font-bold text-green-700 text-lg">About</h4>

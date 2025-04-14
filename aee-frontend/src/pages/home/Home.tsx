@@ -3,9 +3,8 @@ import Highlights from "./Highlights"
 
 function Home() {
   return (
-    <div>
+    <div className="">
       <Highlights />
-      <Footer />
     </div>
   )
 }

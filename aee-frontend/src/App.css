@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+.newspaper {
+    background-image: url('https://www.transparenttextures.com/patterns/paper.png'); /* You can use your own texture image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pin-3d-container {
+    position: relative;
+  }
+  
+  .pin-3d {
+    position: relative;
+    z-index: 2; /* Keep the icon above the pseudo-element */
+  }
+  
+  .pin-3d::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    z-index: -1; /* Put the shadow behind the pin */
+    transform: scale(0.8) translateY(4px); /* Simulate depth */
+  }
+  
+  
